@@ -1,6 +1,6 @@
 # Adversarial Attacks on Fairness-Aware Glaucoma Screening with FairCLIP
 
-How robust is a vision-language model trained to be *fair*? We attack [FairCLIP](https://github.com/Harvard-Ophthalmology-AI-Lab/FairCLIP) (Luo et al., CVPR 2024), a CLIP model fine-tuned for glaucoma detection from SLO fundus scans with an optimal-transport penalty that equalizes performance across demographic groups. We evaluate the CLIP baseline and the three released FairCLIP checkpoints (race, gender, ethnicity) on the full Harvard-FairVLMed test set.
+How robust is a vision-language model trained to be *fair*? We perform simple attacks on [FairCLIP](https://github.com/Harvard-Ophthalmology-AI-Lab/FairCLIP) (Luo et al., CVPR 2024), a CLIP model fine-tuned for glaucoma detection from SLO fundus scans with an optimal-transport penalty that equalizes performance across demographic groups. We evaluate the CLIP baseline and the three released FairCLIP checkpoints (race, gender, ethnicity) on the full Harvard-FairVLMed test set.
 
 Every adversarial image is kept **grayscale**, like a real SLO scan, and **rounded to 8 bits**, so it could be saved as an ordinary image file.
 
