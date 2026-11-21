@@ -1,0 +1,8 @@
+# Install AFTER FairCLIP's requirements.txt and a PyTorch build that supports your GPU (see REPRODUCE.md §2.2)
+numpy
+scipy
+scikit-learn
+pandas
+matplotlib
+tabulate
+git+https://github.com/fra31/auto-attack
