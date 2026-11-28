@@ -43,7 +43,7 @@ The scripts run from inside a clone of the FairCLIP repository, using its data l
 git clone https://github.com/Harvard-Ophthalmology-AI-Lab/FairCLIP.git
 cp attacks/*.py FairCLIP/FairCLIP/
 cd FairCLIP/FairCLIP
-pip install -r <this repo>/requirements_attacks.txt
+pip install -r <this repo>/requirements.txt
 
 python fairclip_full_eval.py --dataset_dir <DATA> --checkpoints <clip.pth> \
   --labels "CLIP baseline" --n_samples 64 --quantize --gray --out_dir results_smoke
